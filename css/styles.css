@@ -32,6 +32,13 @@ body{
     }
 }
 
+.card{
+    img{
+        height: 300px;
+        object-fix: cover;
+    }
+}    
+
 .kau-video{
     height: 500px;
 }
