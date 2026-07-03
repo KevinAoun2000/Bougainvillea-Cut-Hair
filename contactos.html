@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bougainvillea</title>
+    <link rel="icon" type="img/png" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-sm kau-bg-primary">
+      <div class="container">
+        <a href="index.html"><img src="img/bumg.png" alt="Bougainvillea" width="150"></a>
+        <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
+            <li class="nav-item">
+              <a class="kau-nav-link" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="kau-nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Productos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="productos.html">Labiales</a></li>
+                <li><a class="dropdown-item" href="productos.html">Shampoo</a></li>
+                <li><a class="dropdown-item" href="productos.html">Cremas</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="kau-nav-link" href="contactos.html">Contactos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="kau-nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Cortes
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="cortes.html">Hombre</a></li>
+                <li><a class="dropdown-item" href="cortes.html">Mujer</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="cortes.html">Eventos</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="kau-nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="¿Qué estás buscando?" aria-label="Search">
+            <button class="btn btn-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container mt-3">
+      <h1 class="py-3 text-center">Encuentranos cerca de ti</h1><hr>
+      <div class="row">
+        <div class="col-md-12 col-lg-6 py-2">
+          <div class="container">
+            <div class="card container py-3 kau-bg-primary">
+              <h2 class="text-center text-white">Contáctanos</h2><hr>
+              <p class="text-body-primary">En nuestra peluquería nos encanta ayudarte a resaltar tu estilo y belleza. Si deseas reservar una cita, consultar precios o conocer más sobre nuestros servicios, puedes comunicarte con nosotros. Nuestro equipo estará feliz de atenderte y brindarte la mejor experiencia.</p><br>
+              <div class="mb-3">
+                <label for="FormControlInput1" class="form-label text-body-primary">Nombres*</label>
+                <input type="text" class="form-control" id="FormControlInput1" placeholder="Ingresa tus nombres">
+              </div>
+              <div class="mb-3">
+                <label for="FormControlInput2" class="form-label text-body-primary">Apellidos*</label>
+                <input type="text" class="form-control" id="FormControlInput2" placeholder="Ingresa tus apellidos">
+              </div>
+              <label for="DataListDocument" class="form-label text-body-primary">Documento*</label>
+              <input class="form-control" list="datalistDocument" id="DataListDocument" placeholder="DNI o RUC">
+              <datalist id="datalistDocument">
+                <option value="DNI">
+                <option value="RUC">
+              </datalist><br>
+              <div class="mb-3">
+                <label for="FormControlInput3" class="form-label text-body-primary">Razón social</label>
+                <input type="text" class="form-control" id="FormControlInput3" placeholder="Ingresa la razón social">
+              </div>
+              <div class="mb-3">
+                <label for="FormControlInput4" class="form-label text-body-primary">Email*</label>
+                <input type="text" class="form-control" id="FormControlInput4" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="FormControlTextarea1" class="form-label text-body-primary">Mensaje*</label>
+                <textarea class="form-control" id="FormControlTextarea1" rows="3" placeholder="Escribe tu mensaje..."></textarea>
+              </div>
+              <p class="text-body-primary">Los campos con asterisco (*) son obligatorios</p>
+              <a href="#" class="btn btn-primary">Enviar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-6 py-2">
+          <div class="card container kau-bg-primary">
+            <h3 class="py-3"><a class="kau-text-decoration" data-bs-toggle="modal" data-bs-target="#SecondModal">¡AVISO IMPORTANTE!</a></h3>
+            <p class="text-white">Nuestros salones están distribuidos por toda la ciudad de Lima<br>
+              En Lima, nos encuentras en nuestro local principal, ubicado a la espalda de la Av. Alfonso Ugarte.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.7990409245645!2d-77.04549922405945!3d-12.057343588180274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8c49064434f%3A0xdb5a4bd958c60402!2sC.%20Rep%C3%BAblica%20de%20Portugal%20177%2C%20Lima%2015082!5e0!3m2!1ses-419!2spe!4v1780034328937!5m2!1ses-419!2spe" height="600" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map w-100"></iframe><br>
+          </div>
+        </div>
+      </div> 
+    </div>
+    <br><br>
+  </main>
+  <footer class="kau-footer py-4">
+    <div class="container">
+      <div class="row">
+        <div class="kau-footer-box col-12 col-md-6 col-lg-3">
+            <h4>Enlaces</h4><br>
+            <a href="index.html">Inicio</a>
+            <a href="productos.html">Productos</a>
+            <a href="cortes.html">Cortes</a>
+            <a href="contactos.html">Contactos</a>
+            <a href="nosotros.html">Nosotros</a><br>
+        </div>
+        <div class="kau-footer-box col-12 col-md-6 col-lg-3">
+            <h3>Horario de atención</h3><br>
+            <p>Lunes a Viernes: 9:30am - 7pm<br>
+              Sábados: 9:30am - 1:30pm<br><br>
+              Refrigerio: 1pm - 2pm</p><br>
+        </div>
+        <div class="kau-footer-box col-12 col-md-6 col-lg-3">
+            <h4>Contacto</h4><br>
+            <p>📍 Lima, Perú<br>
+              📞 +51 934 535 401<br>
+              📞 +51 985 949 415<br>
+              ✉️ contacto@bougainvillea.com</p><br>
+        </div>
+        <div class="kau-footer-box col-12 col-md-6 col-lg-3">
+            <h4>Síguenos</h4>
+            <div class="kau-footer-social">
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/?locale=es_LA" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.tiktok.com/es-419/" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+            <br><h4>Libro de reclamaciones</h4>
+            <a href="https://consumidor.indecopi.gob.pe/tulibro/#/" target="_blank"><img src="img/libro_reclamaciones.png" alt="Libro_reclamaciones" class="w-25 h-25 text-white"></a>
+        </div>
+      </div>
+      <div class="kau-footer-bottom">
+          <p>© 2026 Bougainvillea. Salón de belleza y cuidado personal.<br>
+            Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+  <div class="modal fade" id="SecondModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content bg-white">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 text-black" id="SecondModalLabel"><img src="img/bumg.png" alt="Bougainvillea" class="w-25"> ¡No caigas en estafas!</h1>
+          <button type="button" class="btn-close bg-body-light" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="text-center text-black">Estimado cliente(a):<br><br>
+            Hemos recibido numerosas quejas de que personas inescrupulosas están cometiendo estafas indicando que vendemos plantas, estupefacientes (drogas) y cualquier otro similar, además de compartir números de cuenta y QR diferentes a nuestros medios de pago oficiales, siendo que, todo es mentira.<br><br>
+            A través de cuentas en redes sociales diferentes a las nuestras difaman el buen nombre de nuestro salón de belleza y comprometen seriamente nuestra reputación alineada a las buenas costumbres, por lo que se está procediendo con las medidas legales necesarias a fin de dar con el(los) culpable(s) y que reciban todo el peso de la Ley conforme a lo establecido en el Código Penal, Artículo 131 - 132.<br><br>
+            Reiteramos nuestra advertencia y tener cuidado con aquel(aquellos) que les ofrezcan cualquier productos/servicios diferentes a los que ofrecemos en nuestra página web y en nuestros salones, inclusive no realizar pagos a cuentas diferentes a los medios de pago oficiales que deben llevar el nombre de Bougainvillea, tampoco realizamos visitas a domicilio como parte de nuestros servicios por si se hacen pasar como nuestro personal para ingresar a sus domicilios<br><br>
+            Agradecemos su comprensión, les pedimos las disculpas del caso por los inconvenientes que les pueda causar y recordarles que nuestra atención se realiza única y exclusivamente en nuestros salones, donde estaremos gustosos de poder atenderles.<br><br>
+            Lima, 05 de junio del 2026<br><br>
+            Bougainvillea Cut Hair S.R.L.<br>
+            CUR: 20710303386</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Entendido</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>   
+</body>
+</html>
