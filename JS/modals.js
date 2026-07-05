@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
     const modal = new bootstrap.Modal(document.getElementById("FirstModal"));
-    myModal.show();
+    modal.show();
 });
 document.addEventListener("DOMContentLoaded", function() {
     const modal = new bootstrap.Modal(document.getElementById("SecondModal"));
-    myModal.show();
+    modal.show();
 });
