@@ -63,6 +63,12 @@ body{
 .kau-card-opinion{
     background-color:purple;
     border-radius:15px;
+    img{
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        object-fix: cover;
+    }
 }
 
 .kau-footer{
